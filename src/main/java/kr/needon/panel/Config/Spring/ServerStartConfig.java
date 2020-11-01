@@ -14,21 +14,31 @@ public class ServerStartConfig implements InitializingBean, DisposableBean {
 
     @Override
     public void afterPropertiesSet() throws Exception {
-        System.out.println("Web Server Start!");
+        //웹서버 시작시 실행될 함수
 
-        int userRoleSize = userService.getUserRole().size();
-        System.out.println("Check User Role Size --> " + userRoleSize);
+        try{
+            Thread.sleep(2000); //DB Insert 되기까지 대기하기
 
-        if(userRoleSize == 0) {
-            userService.insertUserRole("ROLE_ADMIN");
+            int userRoleSize = userService.getUserRole().size();
+            System.out.println("Check User Role Size --> " + userRoleSize);
 
+            if(userRoleSize == 0) {
+                userService.insertUserRole("ROLE_ADMIN");
+
+            }
+
+        }catch(InterruptedException e){
+            e.printStackTrace();
         }
+
+
 
     }
 
     @Override
     public void destroy() throws Exception {
-        System.out.println("Web Server Stop!");
+        //웹서버 종료시 실행될 함수
+
     }
 
 }
