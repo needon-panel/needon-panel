@@ -6,16 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="panel" />
         <module name="needon-panel" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="needon-panel" target="1.8" />
+      <module name="panel" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="needon-panel" options="-parameters" />
+      <module name="panel" options="-parameters" />
     </option>
   </component>
 </project>
