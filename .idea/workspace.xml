@@ -1,45 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="needon-panel:war" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d70cce5f-07db-4185-a337-4d3168f51ee5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/kr/needon/panel/Config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/needon/panel/PanelApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/needon/panel/PanelApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/kr/needon/panel/PanelApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/kr/needon/panel/PanelApplicationTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="9958d55f-ca9c-4104-ba63-b8eabd31630b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,16 +23,14 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--tags" />
-        <option name="title" value="All" />
-      </GitPushTagMode>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/.m2/wrapper/dists/apache-maven-3.6.3-bin/1iopthnavndlasol9gbrbg6bf2/apache-maven-3.6.3" />
+      </MavenGeneralSettings>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1jl85nmfCJiKi17xJk92S7R4lt6" />
+  <component name="ProjectId" id="1lwiAHXy0jiePX7Af2iFEhoDZLM" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -73,99 +41,101 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="kr.needon.panel" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Dev\needon\needon-panel\src\main\webapp" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PanelApplicationTests.dockerAPITest">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PanelApplicationTests.dockerAPITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="panel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kr.needon.panel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="kr.needon.panel" />
-      <option name="MAIN_CLASS_NAME" value="kr.needon.panel.PanelApplicationTests" />
-      <option name="METHOD_NAME" value="dockerAPITest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PanelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="panel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kr.needon.panel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="PanelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="needon-panel" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="kr.needon.panel.PanelApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.PanelApplicationTests.dockerAPITest" />
-        <item itemvalue="Spring Boot.PanelApplication" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d70cce5f-07db-4185-a337-4d3168f51ee5" name="Default Changelist" comment="" />
-      <created>1604367137404</created>
+      <changelist id="9958d55f-ca9c-4104-ba63-b8eabd31630b" name="Default Changelist" comment="" />
+      <created>1608514408614</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1604367137404</updated>
-      <workItem from="1604367139352" duration="298000" />
-      <workItem from="1608480027658" duration="254000" />
-      <workItem from="1608480321673" duration="1391000" />
-      <workItem from="1608485324591" duration="1501000" />
+      <updated>1608514408614</updated>
+      <workItem from="1608514410735" duration="2107000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
+  <component name="WindowStateProjectService">
+    <state x="590" y="-817" key="#com.intellij.ide.util.MemberChooser" timestamp="1608515414563">
+      <screen x="-183" y="-1055" width="1920" height="1055" />
+    </state>
+    <state x="590" y="-817" key="#com.intellij.ide.util.MemberChooser/0.25.1680.969/-183.-1055.1920.1055@-183.-1055.1920.1055" timestamp="1608515414563" />
+    <state x="551" y="-655" width="451" height="262" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1608515293417">
+      <screen x="-183" y="-1055" width="1920" height="1055" />
+    </state>
+    <state x="551" y="-655" width="451" height="262" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.25.1680.969/-183.-1055.1920.1055@-183.-1055.1920.1055" timestamp="1608515293416" />
+    <state width="1878" height="287" key="GridCell.Tab.0.bottom" timestamp="1608515623756">
+      <screen x="-183" y="-1055" width="1920" height="1055" />
+    </state>
+    <state width="1878" height="287" key="GridCell.Tab.0.bottom/0.25.1680.969/-183.-1055.1920.1055@-183.-1055.1920.1055" timestamp="1608515623756" />
+    <state width="1878" height="287" key="GridCell.Tab.0.center" timestamp="1608515623753">
+      <screen x="-183" y="-1055" width="1920" height="1055" />
+    </state>
+    <state width="1878" height="287" key="GridCell.Tab.0.center/0.25.1680.969/-183.-1055.1920.1055@-183.-1055.1920.1055" timestamp="1608515623753" />
+    <state width="1878" height="287" key="GridCell.Tab.0.left" timestamp="1608515623752">
+      <screen x="-183" y="-1055" width="1920" height="1055" />
+    </state>
+    <state width="1878" height="287" key="GridCell.Tab.0.left/0.25.1680.969/-183.-1055.1920.1055@-183.-1055.1920.1055" timestamp="1608515623752" />
+    <state width="1878" height="287" key="GridCell.Tab.0.right" timestamp="1608515623755">
+      <screen x="-183" y="-1055" width="1920" height="1055" />
+    </state>
+    <state width="1878" height="287" key="GridCell.Tab.0.right/0.25.1680.969/-183.-1055.1920.1055@-183.-1055.1920.1055" timestamp="1608515623755" />
+    <state width="1878" height="287" key="GridCell.Tab.1.bottom" timestamp="1608515623768">
+      <screen x="-183" y="-1055" width="1920" height="1055" />
+    </state>
+    <state width="1878" height="287" key="GridCell.Tab.1.bottom/0.25.1680.969/-183.-1055.1920.1055@-183.-1055.1920.1055" timestamp="1608515623768" />
+    <state width="1878" height="287" key="GridCell.Tab.1.center" timestamp="1608515623761">
+      <screen x="-183" y="-1055" width="1920" height="1055" />
+    </state>
+    <state width="1878" height="287" key="GridCell.Tab.1.center/0.25.1680.969/-183.-1055.1920.1055@-183.-1055.1920.1055" timestamp="1608515623761" />
+    <state width="1878" height="287" key="GridCell.Tab.1.left" timestamp="1608515623758">
+      <screen x="-183" y="-1055" width="1920" height="1055" />
+    </state>
+    <state width="1878" height="287" key="GridCell.Tab.1.left/0.25.1680.969/-183.-1055.1920.1055@-183.-1055.1920.1055" timestamp="1608515623758" />
+    <state width="1878" height="287" key="GridCell.Tab.1.right" timestamp="1608515623767">
+      <screen x="-183" y="-1055" width="1920" height="1055" />
+    </state>
+    <state width="1878" height="287" key="GridCell.Tab.1.right/0.25.1680.969/-183.-1055.1920.1055@-183.-1055.1920.1055" timestamp="1608515623767" />
+    <state x="265" y="-949" key="SettingsEditor" timestamp="1608516027494">
+      <screen x="-183" y="-1055" width="1920" height="1055" />
+    </state>
+    <state x="265" y="-949" key="SettingsEditor/0.25.1680.969/-183.-1055.1920.1055@-183.-1055.1920.1055" timestamp="1608516027494" />
   </component>
 </project>

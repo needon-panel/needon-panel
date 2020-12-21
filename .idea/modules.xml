@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/needon-panel.iml" filepath="$PROJECT_DIR$/needon-panel.iml" />
-      <module fileurl="file://$PROJECT_DIR$/panel.iml" filepath="$PROJECT_DIR$/panel.iml" />
     </modules>
   </component>
 </project>
