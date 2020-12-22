@@ -24,8 +24,6 @@ class PanelApplicationTests {
         final List<Container> containers = docker.listContainers(DockerClient.ListContainersParam.allContainers());
 
         System.out.println("containers --> " + containers.toString());
-
-
     }
 
 }
