@@ -12,7 +12,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="needon-panel" target="11" />
-      <module name="panel" target="1.8" />
+      <module name="panel" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

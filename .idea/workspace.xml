@@ -27,14 +27,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9958d55f-ca9c-4104-ba63-b8eabd31630b" name="Default Changelist" comment="프로젝트 기본 설정 적용">
+    <list default="true" id="9958d55f-ca9c-4104-ba63-b8eabd31630b" name="Default Changelist" comment="소스 기록">
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/needon/panel/Config/TilesConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/layout.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tiles.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/needon/panel/Config/H2Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/needon/panel/Config/H2Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/kr/needon/panel/PanelApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/kr/needon/panel/PanelApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kr/needon/panel/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/needon/panel/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +47,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -71,7 +74,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -144,7 +147,9 @@
       <updated>1608514408614</updated>
       <workItem from="1608514410735" duration="4339000" />
       <workItem from="1608520722680" duration="528000" />
-      <workItem from="1608656005911" duration="1778000" />
+      <workItem from="1608656005911" duration="2405000" />
+      <workItem from="1608721723694" duration="2000" />
+      <workItem from="1608753939146" duration="2229000" />
     </task>
     <task id="LOCAL-00001" summary="프로젝트 기본 설정 적용">
       <created>1608520748010</created>
@@ -153,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608520748011</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="소스 기록">
+      <created>1608658034442</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608658034442</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +185,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="프로젝트 기본 설정 적용" />
-    <option name="LAST_COMMIT_MESSAGE" value="프로젝트 기본 설정 적용" />
+    <MESSAGE value="소스 기록" />
+    <option name="LAST_COMMIT_MESSAGE" value="소스 기록" />
   </component>
 </project>
