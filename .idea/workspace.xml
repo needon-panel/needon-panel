@@ -27,17 +27,76 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9958d55f-ca9c-4104-ba63-b8eabd31630b" name="Default Changelist" comment="소스 기록">
-      <change afterPath="$PROJECT_DIR$/src/main/java/kr/needon/panel/Config/TilesConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/layout.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tiles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="9958d55f-ca9c-4104-ba63-b8eabd31630b" name="Default Changelist" comment="tiles 설정 추가">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/css/adminlte.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/css/adminlte.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/css/adminlte.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/css/adminlte.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/css/alt/adminlte.components.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/css/alt/adminlte.components.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/css/alt/adminlte.components.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/css/alt/adminlte.components.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/css/alt/adminlte.core.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/css/alt/adminlte.core.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/css/alt/adminlte.core.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/css/alt/adminlte.core.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/css/alt/adminlte.extra-components.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/css/alt/adminlte.extra-components.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/css/alt/adminlte.extra-components.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/css/alt/adminlte.extra-components.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/css/alt/adminlte.pages.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/css/alt/adminlte.pages.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/css/alt/adminlte.pages.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/css/alt/adminlte.pages.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/css/alt/adminlte.plugins.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/css/alt/adminlte.plugins.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/css/alt/adminlte.plugins.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/css/alt/adminlte.plugins.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/img/AdminLTELogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/img/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/img/avatar2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/img/avatar3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/img/avatar4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/img/avatar5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/img/boxed-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/img/boxed-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/img/credit/american-express.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/img/credit/cirrus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/img/credit/mastercard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/img/credit/paypal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/img/credit/paypal2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/img/credit/visa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/img/default-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/img/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/img/photo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/img/photo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/img/photo3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/img/photo4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/img/prod-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/img/prod-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/img/prod-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/img/prod-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/img/prod-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/img/user1-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/img/user2-160x160.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/img/user3-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/img/user4-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/img/user5-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/img/user6-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/img/user7-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/img/user8-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/js/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/js/adminlte.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/js/adminlte.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/js/adminlte.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/js/adminlte.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/js/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/js/pages/dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/js/pages/dashboard2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dist/js/pages/dashboard3.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/needon/panel/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/needon/panel/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kr/needon/panel/Config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/needon/panel/Config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,28 +129,34 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="kr.needon.panel" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Dev\needon\needon-panel\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="kr.needon.panel" />
+    </key>
   </component>
   <component name="RunManager" selected="Spring Boot.PanelApplication">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,7 +214,8 @@
       <workItem from="1608520722680" duration="528000" />
       <workItem from="1608656005911" duration="2405000" />
       <workItem from="1608721723694" duration="2000" />
-      <workItem from="1608753939146" duration="2229000" />
+      <workItem from="1608753939146" duration="3317000" />
+      <workItem from="1608761570118" duration="361000" />
     </task>
     <task id="LOCAL-00001" summary="프로젝트 기본 설정 적용">
       <created>1608520748010</created>
@@ -165,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608658034442</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="tiles 설정 추가">
+      <created>1608758280499</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608758280499</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +259,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="프로젝트 기본 설정 적용" />
     <MESSAGE value="소스 기록" />
-    <option name="LAST_COMMIT_MESSAGE" value="소스 기록" />
+    <MESSAGE value="tiles 설정 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="tiles 설정 추가" />
   </component>
 </project>
