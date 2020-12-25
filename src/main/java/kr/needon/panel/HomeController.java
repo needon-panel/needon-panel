@@ -20,7 +20,7 @@ public class HomeController {
         final DockerClient docker = DefaultDockerClient.fromEnv().build();
 
         final List<Container> containers = docker.listContainers(DockerClient.ListContainersParam.allContainers());
-
+        System.out.println("containers --> " + containers.toString());
 
         return "home";
     }

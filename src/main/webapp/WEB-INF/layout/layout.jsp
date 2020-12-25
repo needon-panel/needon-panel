@@ -10,7 +10,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <head>
-    <title>Title</title>
+    <title>${title }</title>
     <tiles:insertAttribute name="head" />
 </head>
 
