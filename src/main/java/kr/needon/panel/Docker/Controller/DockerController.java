@@ -18,6 +18,7 @@ public class DockerController {
 
         dockerService.dockerAPIList(model);
 
+        model.addAttribute("title","컨테이너");
         model.addAttribute("menuCategory","관리자");
         model.addAttribute("menuName","컨테이너");
         return "containers";

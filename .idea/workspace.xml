@@ -27,26 +27,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9958d55f-ca9c-4104-ba63-b8eabd31630b" name="Default Changelist" comment="junit 오류 수정">
-      <change afterPath="$PROJECT_DIR$/src/main/java/kr/needon/panel/Docker/Controller/DockerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kr/needon/panel/Docker/Service/DockerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kr/needon/panel/Model/DockerBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/docker/containers.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/needon/panel/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/needon/panel/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/needon/panel/Utils/DockerUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/head.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/layout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/layout.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/navbar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/navbar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/sidebar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/sidebar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tiles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tiles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/kr/needon/panel/PanelApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/kr/needon/panel/PanelApplicationTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="9958d55f-ca9c-4104-ba63-b8eabd31630b" name="Default Changelist" comment="컨테이너 리스트 추가" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -205,7 +186,7 @@
       <workItem from="1608761570118" duration="361000" />
       <workItem from="1608931586631" duration="9843000" />
       <workItem from="1608977005816" duration="321000" />
-      <workItem from="1608977701865" duration="7151000" />
+      <workItem from="1608977701865" duration="7660000" />
     </task>
     <task id="LOCAL-00001" summary="프로젝트 기본 설정 적용">
       <created>1608520748010</created>
@@ -242,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608938659683</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="컨테이너 리스트 추가">
+      <created>1608985550941</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608985550941</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,6 +254,7 @@
     <MESSAGE value="tiles 설정 추가" />
     <MESSAGE value="admin lte tiles 적용" />
     <MESSAGE value="junit 오류 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="junit 오류 수정" />
+    <MESSAGE value="컨테이너 리스트 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="컨테이너 리스트 추가" />
   </component>
 </project>

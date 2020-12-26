@@ -19,6 +19,7 @@ public class HomeController {
 
         dockerService.dockerAPICount(model);
 
+        model.addAttribute("title","홈");
         model.addAttribute("menuCategory","관리자");
         model.addAttribute("menuName","홈");
         return "home";
