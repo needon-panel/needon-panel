@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="needon-panel:war" />
+      <artifact name="panel:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -27,16 +27,25 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9958d55f-ca9c-4104-ba63-b8eabd31630b" name="Default Changelist" comment="소스 기록">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/head.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/navbar.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/sidebar.jsp" afterDir="false" />
+    <list default="true" id="9958d55f-ca9c-4104-ba63-b8eabd31630b" name="Default Changelist" comment="junit 오류 수정">
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/needon/panel/Docker/Controller/DockerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/needon/panel/Docker/Service/DockerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/needon/panel/Model/DockerBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/docker/containers.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kr/needon/panel/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/needon/panel/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kr/needon/panel/Utils/DockerUtil.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/head.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/header.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/layout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/layout.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/navbar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/navbar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/sidebar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/sidebar.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tiles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tiles.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/kr/needon/panel/PanelApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/kr/needon/panel/PanelApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +79,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -86,6 +95,9 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="kr.needon.panel" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="kr.needon.panel.Docker" />
+    </key>
   </component>
   <component name="RunManager" selected="Spring Boot.PanelApplication">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -95,6 +107,38 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PanelApplicationTests.실행중인_컨테이너" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="panel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kr.needon.panel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="kr.needon.panel" />
+      <option name="MAIN_CLASS_NAME" value="kr.needon.panel.PanelApplicationTests" />
+      <option name="METHOD_NAME" value="실행중인_컨테이너" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PanelApplicationTests.실행중인_도커_서비스_카운트" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="panel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kr.needon.panel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="kr.needon.panel" />
+      <option name="MAIN_CLASS_NAME" value="kr.needon.panel.PanelApplicationTests" />
+      <option name="METHOD_NAME" value="실행중인_도커_서비스_카운트" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -125,17 +169,22 @@
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="kr.needon.panel.PanelApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="JUnit.PanelApplicationTests.testDockerList" />
+      <item itemvalue="JUnit.PanelApplicationTests.실행중인_컨테이너" />
+      <item itemvalue="JUnit.PanelApplicationTests.실행중인_도커_서비스_카운트" />
       <item itemvalue="Spring Boot.PanelApplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.PanelApplication" />
+        <item itemvalue="JUnit.PanelApplicationTests.실행중인_도커_서비스_카운트" />
+        <item itemvalue="JUnit.PanelApplicationTests.실행중인_컨테이너" />
         <item itemvalue="JUnit.PanelApplicationTests.testDockerList" />
       </list>
     </recent_temporary>
@@ -154,7 +203,9 @@
       <workItem from="1608721723694" duration="2000" />
       <workItem from="1608753939146" duration="3317000" />
       <workItem from="1608761570118" duration="361000" />
-      <workItem from="1608931586631" duration="4056000" />
+      <workItem from="1608931586631" duration="9843000" />
+      <workItem from="1608977005816" duration="321000" />
+      <workItem from="1608977701865" duration="7151000" />
     </task>
     <task id="LOCAL-00001" summary="프로젝트 기본 설정 적용">
       <created>1608520748010</created>
@@ -177,7 +228,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608758280499</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="admin lte tiles 적용">
+      <created>1608936744842</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608936744842</updated>
+    </task>
+    <task id="LOCAL-00005" summary="junit 오류 수정">
+      <created>1608938659683</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608938659683</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +264,8 @@
     <MESSAGE value="프로젝트 기본 설정 적용" />
     <MESSAGE value="소스 기록" />
     <MESSAGE value="tiles 설정 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="tiles 설정 추가" />
+    <MESSAGE value="admin lte tiles 적용" />
+    <MESSAGE value="junit 오류 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="junit 오류 수정" />
   </component>
 </project>

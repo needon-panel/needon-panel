@@ -1,28 +1,26 @@
 package kr.needon.panel;
 
-import com.spotify.docker.client.DefaultDockerClient;
-import com.spotify.docker.client.DockerClient;
 import com.spotify.docker.client.exceptions.DockerCertificateException;
 import com.spotify.docker.client.exceptions.DockerException;
-import com.spotify.docker.client.messages.Container;
+import kr.needon.panel.Docker.Service.DockerService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-
-import java.util.List;
 
 @Controller
 public class HomeController {
 
+    @Autowired
+    private DockerService dockerService;
+
     @GetMapping("/")
-    public String Home() throws DockerException, InterruptedException, DockerCertificateException {
-        System.out.println("test");
+    public String Home(Model model) throws DockerException, InterruptedException, DockerCertificateException {
 
-        final DockerClient docker = DefaultDockerClient.fromEnv().build();
+        dockerService.dockerAPICount(model);
 
-        final List<Container> containers = docker.listContainers(DockerClient.ListContainersParam.allContainers());
-        System.out.println("containers --> " + containers.toString());
-
+        model.addAttribute("menuCategory","관리자");
+        model.addAttribute("menuName","홈");
         return "home";
     }
-
 }
